@@ -1,0 +1,22 @@
+{
+  "name": "dataroot",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Lyuda Kovalchuk <lyudasmithk@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "1"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

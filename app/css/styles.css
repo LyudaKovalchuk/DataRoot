@@ -1,0 +1,289 @@
+body {
+  margin: 0;
+  background-color: #F2F2F2; }
+
+.brand {
+  float: left;
+  padding: 9px 20px; }
+
+.header__nav {
+  height: 60px;
+  background-color: #00BEAE; }
+
+.header__menu {
+  margin: 0;
+  padding: 0; }
+
+.header__menu-item {
+  list-style: none; }
+  .header__menu-item a {
+    text-decoration: none;
+    float: left;
+    color: white;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: bold;
+    padding: 22px 30px; }
+  .header__menu-item img {
+    padding: 0 5px; }
+
+.icon {
+  display: none; }
+
+.responsive {
+  display: none;
+  width: 100%;
+  background-color: #E8F9FF;
+  position: absolute;
+  left: 0px;
+  top: 44px;
+  list-style: none;
+  padding: 0; }
+  .responsive a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 8px 8px 20px; }
+  .responsive a:hover {
+    background-color: white; }
+
+.categories {
+  font-weight: bolder;
+  font-size: 16px;
+  padding-left: 5px !important; }
+
+@media screen and (max-width: 720px) {
+  ul.header__menu li {
+    display: none; }
+  ul.header__menu li.icon {
+    float: right;
+    display: inline-block; }
+  .responsive a {
+    display: block; }
+  .mainSection__chapters {
+    display: table;
+    margin: 0 auto; }
+  .mainSection__menu-item {
+    display: block !important; }
+    .mainSection__menu-item a {
+      margin: 4px 0 !important; } }
+
+.show {
+  display: block !important; }
+
+.mainSection {
+  background-image: url("../img/great-fun-family-time-happy-couple-happy-kids-autumn-production-lifestyle-photography-feeling-good-beurer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%; }
+  .mainSection div {
+    margin: auto; }
+
+.header__menu {
+  position: relative; }
+
+.header__menu .header__submenu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  top: 60px;
+  width: 100%; }
+  .header__menu .header__submenu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 230px; }
+  .header__menu .header__submenu a:hover {
+    background-color: #f1f1f1; }
+
+.first {
+  padding-left: 250px; }
+
+.second {
+  left: 500px; }
+
+.header__menu li:first-child:hover .header__submenu {
+  display: block; }
+
+.header__on-contries {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Roboto",sans-serif;
+  font-weight: bolder;
+  display: block; }
+  .header__on-contries a {
+    float: none; }
+
+.header__contries {
+  font-size: 14px;
+  padding-left: 10px !important; }
+
+.header__submenu li:last-child a {
+  margin: 10px 0 10px 0;
+  color: #00BEAE; }
+
+.mainSection__assign {
+  margin: 0;
+  color: white;
+  font-family: 'Roboto' , sans-serif;
+  font-size: 56px;
+  font-weight: bolder;
+  text-align: center; }
+
+.mainSection__assign:first-child {
+  padding-top: 50px; }
+
+.mainSection__popular {
+  font-family: 'Roboto' , sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  margin-top: 40px; }
+
+.mainSection__chapters {
+  overflow: hidden;
+  display: table;
+  /* Allow the centering to work */
+  margin: 0 auto; }
+
+.mainSection__menu-item {
+  display: inline;
+  font-size: 18px; }
+  .mainSection__menu-item a {
+    padding: 10px 15px;
+    margin: 0 15px;
+    background-color: #007067; }
+  .mainSection__menu-item a:hover {
+    color: #007067;
+    background-color: white; }
+
+.atricles {
+  background-color: #F2F2F2;
+  display: table;
+  margin: 0 auto; }
+  .atricles .articles_main-img {
+    display: block;
+    height: 250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+  .atricles a {
+    display: block;
+    text-decoration: none;
+    color: #007067; }
+  .atricles span {
+    opacity: 0.7;
+    line-height: normal;
+    color: lightgrey; }
+
+.watched {
+  position: absolute;
+  bottom: 40px;
+  right: 60px; }
+  .watched .watched-img {
+    height: 15px;
+    padding: 0 5px; }
+
+.watched:hover {
+  opacity: 1; }
+
+.comments:hover {
+  opacity: 1; }
+
+.comments {
+  position: absolute;
+  right: 20px;
+  bottom: 40px; }
+  .comments .comments-img {
+    height: 14px;
+    width: 14px;
+    vertical-align: middle;
+    padding: 0 5px; }
+
+.big-span {
+  bottom: 15px !important; }
+
+.articles__three_in_row {
+  display: inline-block;
+  width: 362px;
+  height: 415px;
+  padding: 25px;
+  background-color: #F2F2F2;
+  overflow: hidden; }
+
+.articles__two_in_row {
+  width: 570px;
+  height: 545px; }
+
+.big-img {
+  height: 350px !important;
+  width: 100% !important; }
+
+.articles__text-part {
+  padding: 15px;
+  background-color: white;
+  height: 195px;
+  position: relative; }
+  .articles__text-part a {
+    display: inline-block;
+    padding: 5px; }
+  .articles__text-part a:hover {
+    background-color: #E8F9FF; }
+
+.articles_bottom-part {
+  padding-bottom: 10px; }
+
+.articles__showDate {
+  float: left;
+  color: gainsboro;
+  font-size: 12px;
+  position: absolute;
+  bottom: 40px; }
+
+.article__expert {
+  color: red !important; }
+
+.article__expert:hover {
+  background-color: #F9A9A9 !important; }
+
+.flip-buttons {
+  display: table;
+  margin: 0 auto;
+  padding: 20px 0; }
+
+.flip-buttons__item {
+  display: inline;
+  font-size: 18px; }
+  .flip-buttons__item a {
+    padding: 15px 20px;
+    margin: 0 15px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    text-decoration: none; }
+
+.flip-buttons__list {
+  padding: 0 !important; }
+
+.flip {
+  background-color: #00BEAE !important; }
+
+@media screen and (max-width: 1236px) {
+  .articles__three_in_row {
+    width: 45%; }
+  .articles__two_in_row {
+    width: 45%; } }
+
+@media screen and (max-width: 1000px) {
+  .articles__three_in_row {
+    width: 90%; }
+  .articles__two_in_row {
+    width: 90%; } }
+
+@media screen and (max-width: 440px) {
+  .flip-buttons {
+    display: none; } }
